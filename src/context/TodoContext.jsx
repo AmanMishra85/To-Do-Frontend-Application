@@ -8,7 +8,7 @@ function TodoContextProvier({ children }) {
   const [totalComplete, setTotalComplete] = useState(0);
 
   const addTodo = (todo) => {
-    todoList.push(todo);
+    todoList.unshift(todo);
     console.log(todoList);
     localStorage.setItem('todos',JSON.stringify(todoList))
   };
