@@ -36,7 +36,7 @@ function Todo() {
   };
 
   return (
-    <div className="flex justify-start py-8 item-start sm:items-center flex-col m-8 rounded-2xl h-[80%]">
+    <div className="flex justify-start py-8 items-center flex-col m-8 rounded-2xl h-[80%]">
       <section className="border-[1px] border-gray-500 p-8 mb-4 rounded-2xl flex justify-center items-center gap-6 text-gray-400 w-[95%] sm:w-[85%] md:w-[70%] lg:w-[40%] sm:justify-around">
         <h2>
           <span className="text-2xl sm:text-4xl font-semibold">Task Done</span>
